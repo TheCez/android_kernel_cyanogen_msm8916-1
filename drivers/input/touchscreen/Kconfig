@@ -1089,7 +1089,6 @@ config TOUCHSCREEN_GT9XX_YL
 	  If unsure, say N.
 
 source "drivers/input/touchscreen/gt9xx_yl/Kconfig"
-
 config TOUCHSCREEN_BU21150
 	tristate "JDI AFE BU21150"
 	depends on SPI_MASTER
